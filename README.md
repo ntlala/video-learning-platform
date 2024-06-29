@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# EduVision
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EduVision is a personalized video learning platform powered by AI, designed to enhance your educational experience with AI-generated quizzes and progress tracking.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Learn at Your Pace**: Access a wide range of educational videos and learn at your own speed. Our platform adapts to your learning style.
+- **AI-Powered Quizzes**: Test your knowledge with automatically generated quizzes tailored to each video you watch.
+- **Track Your Progress**: Monitor your learning journey with detailed progress tracking and performance analytics.
+- **Diverse Topics**: Explore a vast array of subjects from academic courses to practical skills and hobbies.
 
-## Expanding the ESLint configuration
+## Technology Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Frontend**: React.js
+- **Backend**: Node.js
+- **Database**: PostgreSQL
+- **Video Hosting**: YouTube API
+- **AI Integration**: OpenAI API, Google Generative AI
+- **Authentication**: Clerk
+- **Styling**: Ant Design
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Prerequisites
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Node.js
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/eduvision.git
+   cd eduvision
+
+
+##demo LINK
+https://video-learning-platform-c0sdvwm51-tsoanas-projects.vercel.app/
